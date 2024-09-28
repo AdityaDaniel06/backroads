@@ -3,7 +3,6 @@ import Title from './Title';
 const About = () => {
   return (
     <>
-      {' '}
       <section className="section" id="about">
         <Title title="About" subTitle="us" />
 

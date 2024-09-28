@@ -1,3 +1,10 @@
+import tour1 from './images/tour-1.jpeg';
+import tour2 from './images/tour-2.jpeg';
+import tour3 from './images/tour-3.jpeg';
+import tour4 from './images/tour-4.jpeg';
+import tour5 from './images/tour-5.jpeg';
+import tour6 from './images/tour-6.jpeg';
+
 export const pageLinks = [
   {
     id: 1,
@@ -57,5 +64,73 @@ export const servicesData = [
     icon: 'fas fa-socks fa-fw',
     title: 'amazing comfort',
     text: '  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
+  },
+];
+export const tours = [
+  {
+    id: 1,
+    image: tour1,
+    date: 'August 26th, 2022',
+    title: 'Tibet Adventure',
+    price: '₹120000',
+    info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, voluptatum.',
+    location: 'China',
+    duration: 10,
+    highlights: ['Fast travel', 'Inexpensive', 'Unforgettable experience'],
+  },
+  {
+    id: 2,
+    image: tour2,
+    date: 'August 26th, 2022',
+    title: 'best of java',
+    price: '₹220000',
+    info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, voluptatum.',
+    location: ' indonesia',
+    duration: 11,
+    highlights: ['Fast travel', 'Inexpensive', 'Unforgettable experience'],
+  },
+  {
+    id: 3,
+    image: tour3,
+    date: 'August 26th, 2022',
+    title: 'explore hong kong',
+    price: '₹120000',
+    info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, voluptatum.',
+    location: 'hong kong',
+    duration: 8,
+    highlights: ['Fast travel', 'Inexpensive', 'Unforgettable experience'],
+  },
+  {
+    id: 4,
+    image: tour4,
+    date: 'August 26th, 2022',
+    title: 'kenya highlights',
+    price: '₹120000',
+    info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, voluptatum.',
+    location: 'China',
+    duration: 10,
+    highlights: ['Fast travel', 'Inexpensive', 'Unforgettable experience'],
+  },
+  {
+    id: 5,
+    image: tour5,
+    date: 'August 26th, 2022',
+    title: 'African Safari',
+    price: '₹120000',
+    info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, voluptatum.',
+    location: 'South Africa',
+    duration: 10,
+    highlights: ['Fast travel', 'Inexpensive', 'Unforgettable experience'],
+  },
+  {
+    id: 6,
+    image: tour6,
+    date: 'August 26th, 2023',
+    title: 'Incredible India',
+    price: '₹120000',
+    info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, voluptatum.',
+    location: 'India',
+    duration: 10,
+    highlights: ['Fast travel', 'Inexpensive', 'Unforgettable experience'],
   },
 ];
